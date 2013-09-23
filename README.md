@@ -1,4 +1,4 @@
-chance-database
+bet-database
 ===============
 
 Chance Database module
