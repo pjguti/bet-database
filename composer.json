@@ -6,15 +6,15 @@
         "framework",
         "zf2"
     ],
-    "homepage": "http://framework.zend.com/",
+    "homepage": "http://github.com/vagovszky/bet-database",
     "require": {
         "php": ">=5.3.3",
-        "zendframework/zendframework": "=2.2.2",
+        "zendframework/zendframework": ">=2.2.2",
         "doctrine/doctrine-orm-module": "0.*",
     },
     "autoload": {
         "psr-0": {
-            "BetDatabase": "src/"
+            "BetDatabase\\": "src/"
         },
         "classmap": [
             "./Module.php"
