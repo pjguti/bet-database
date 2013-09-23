@@ -87,13 +87,13 @@ class Bettypes {
     }
 
 
-    public function addMatch(\Database\Entity\Matches $matches)
+    public function addMatch(\BetDatabase\Entity\Matches $matches)
     {
         $this->matches[] = $matches;
         return $this;
     }
 
-    public function removeMatch(\Database\Entity\Matches $matches)
+    public function removeMatch(\BetDatabase\Entity\Matches $matches)
     {
         $this->matches->removeElement($matches);
     }

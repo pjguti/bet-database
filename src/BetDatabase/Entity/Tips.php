@@ -31,7 +31,7 @@ class Tips {
     private $datetime_created;
 
     /**
-     * @ORM\OneToOne(targetEntity="Database\Entity\Odds")
+     * @ORM\OneToOne(targetEntity="BetDatabase\Entity\Odds")
      * @ORM\JoinColumn(name="fk_odds", referencedColumnName="id", nullable=false, onDelete="CASCADE")
      */
     private $odd;
@@ -69,10 +69,10 @@ class Tips {
     /**
      * Set odd
      *
-     * @param \Database\Entity\Odds $odd
+     * @param \BetDatabase\Entity\Odds $odd
      * @return Tips
      */
-    public function setOdd(\Database\Entity\Odds $odd) {
+    public function setOdd(\BetDatabase\Entity\Odds $odd) {
         $this->odd = $odd;
 
         return $this;
@@ -81,7 +81,7 @@ class Tips {
     /**
      * Get odd
      *
-     * @return \Database\Entity\Odds 
+     * @return \BetDatabase\Entity\Odds 
      */
     public function getOdd() {
         return $this->odd;

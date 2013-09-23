@@ -104,13 +104,13 @@ class Ligues {
     }
 
 
-    public function addBettype(\Database\Entity\Bettypes $bettypes)
+    public function addBettype(\BetDatabase\Entity\Bettypes $bettypes)
     {
         $this->bettypes[] = $bettypes;
         return $this;
     }
 
-    public function removeBettype(\Database\Entity\Bettypes $bettypes)
+    public function removeBettype(\BetDatabase\Entity\Bettypes $bettypes)
     {
         $this->bettypes->removeElement($bettypes);
     }

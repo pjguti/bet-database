@@ -147,13 +147,13 @@ class Matches {
         return $this;
     }
 
-    public function addOdd(\Database\Entity\Odds $odds)
+    public function addOdd(\BetDatabase\Entity\Odds $odds)
     {
         $this->odds[] = $odds;
         return $this;
     }
 
-    public function removeOdd(\Database\Entity\Odds $odds)
+    public function removeOdd(\BetDatabase\Entity\Odds $odds)
     {
         $this->odds->removeElement($odds);
     }
