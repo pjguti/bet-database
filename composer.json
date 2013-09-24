@@ -6,6 +6,7 @@
         "framework",
         "zf2"
     ],
+    "type": "library",
     "homepage": "http://github.com/vagovszky/bet-database",
     "require": {
         "php": ">=5.3.3",
